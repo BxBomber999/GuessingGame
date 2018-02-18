@@ -1,0 +1,215 @@
+/* ---------------------------
+	RESET DEFAULTS
+-----------------------------*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------------------------
+	STYLES
+-----------------------------*/
+
+* {
+	text-align: center;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 48pt;
+	padding-bottom: 10pt;
+}
+
+h2 {
+	font-size: 36pt;
+}
+
+h3 {
+	font-size: 24pt;
+	padding-bottom: 10pt;
+}
+
+h4 {
+	font-size: 18pt;
+	padding-bottom: 10pt;
+}
+
+h5 {
+	font-size: 16pt;
+}
+
+h6 {
+	font-size: 12pt;
+}
+
+ul {
+  	list-style: none;
+  	padding: 0;
+}
+
+div {
+	padding-bottom: 10pt;
+	text-align: middle;
+}
+
+strong {
+	font-style: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+img {
+	width: auto;
+	height: auto;
+}
+
+.headers h1,h4 {
+	text-shadow: 1px 1px 10px rgba(255,255,255,0.5), 1px 1px 10px rgba(255,255,255,0.5), 1px 1px 10px rgba(255,255,255,0.5);
+}
+
+/* ---------------------------
+	APP
+-----------------------------*/
+
+body {
+	background-image: url('question-mark-background.jpg');
+	background-position: center center;
+}
+
+#main {
+
+}
+
+li {
+	text-shadow: 1px 1px 10px rgba(255,255,255,0.5), 1px 1px 10px rgba(255,255,255,0.5), 1px 1px 10px rgba(255,255,255,0.5);
+	box-shadow: 1px 1px 10px rgba(255,255,255,0.5), 1px 1px 10px rgba(255,255,255,0.5), 1px 1px 10px rgba(255,255,255,0.5);
+}
+
+#guessInput {
+	border-radius: 50%;
+	font-size: 35pt;
+	height: 100px;
+	width: 100px;
+	box-shadow: 1px 1px 10px rgba(255,255,255,0.5), 1px 1px 10px rgba(255,255,255,0.5), 1px 1px 10px rgba(255,255,255,0.5);
+}
+
+.guess {
+	display: inline;
+	font-size: 50pt;
+	font-style: italic;
+	border: 2px solid black;
+	border-radius: 20%;
+	margin: 0 10px;
+	padding: 0 10px;
+}
+
+/* ---------------------------
+	BUTTONS
+-----------------------------*/
+
+button {
+	border-radius: 10px
+}
+
+#go {
+	position: relative;
+	background-color: rgb(125, 196, 25);
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding: 0 0 0 0;
+	right: 40px;
+	top: 25px;
+}
+
+#hint {
+	background-color: rgb(0, 180, 199);
+}
+
+#reset {
+	background-color: rgb(241, 79, 97);
+}
+
+/* ---------------------------
+	IMAGES
+-----------------------------*/
+
+img {
+	display: inline;
+}
+
+/* ---------------------------
+	FOOTER
+-----------------------------*/
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.signature {
+	font-family: Helvetica-Neue, Ariel, Times-New-Roman;
+	height: 80px;
+	line-height: 80px;
+	white-space: nowrap;
+}
+
+#footer img {
+	max-height: 80px;
+}
+

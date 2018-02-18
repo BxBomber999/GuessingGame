@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div id='app'>
+      <header class="headers">
+        <h1 id='title'><strong>Welcome To The Guessing Game!<strong/></h1>
+        <h4 id='subtitle'>Enter your next guess:</h4>
+      </header>
+
+      <div>
+        <div id='main'>
+          <input class="textField" id="guessInput" placeholder="#" maxlength="3" autofocus=autofocus>
+          </input>
+
+          <button class="btn" id="go">
+            Go!
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <ul id='guesses'>
+          <li id="guess1" class="guess">--</li>
+          <li id="guess2" class="guess">--</li>
+          <li id="guess3" class="guess">--</li>
+          <li id="guess4" class="guess">--</li>
+          <li id="guess5" class="guess">--</li>
+        </ul>
+      </div>
+
+      <div id="menu-btns">
+        <button class="btn" id="hint">Hint</button>
+        <button class="btn" id="reset">Reset</button>
+      </div>
+    </div>
+  </body>
+
+  <footer id='footer'>  
+    <div class=".container">
+      <div class=".row">
+        <div class='col-xs-4'>
+          <img src='fa-logo@2x.png'></img>
+        </div>
+
+        <div class='col-xs-4 signature'>
+          <label>Project by <em>Peter Coyle</em></label>
+        </div>
+
+        <div class='col-xs-4'>
+          <img src='grace_hopper_academy.png'></img>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="GuessingGame.js"></script>
+</html>
